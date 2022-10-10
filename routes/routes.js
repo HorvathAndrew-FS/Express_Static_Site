@@ -8,10 +8,10 @@ router.get('/', (req, res) => {
 
 router.get("/about", (req, res) => {
     res.sendFile(path.join(__dirname, '..', '/views/about.html'));
-})
+});
 
 router.get("/about", (req, res) => {
     res.sendFile(path.join(__dirname, '..', '/views/services.html'));
-})
+});
 
 module.exports = router;
